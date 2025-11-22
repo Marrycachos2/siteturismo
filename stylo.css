@@ -73,3 +73,45 @@ footer img {
 strong{
     color: black;
 }
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(240, 232, 194, 0.8);
+  color: #291b1a;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 0;
+}
+
+#scrollTopBtn:hover {
+  background-color: rgba(240, 232, 194, 1);
+}
+.lugar {
+  display: inline-block;
+  text-decoration: none;
+  color: #573a37;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.lugar:hover {
+  transform: scale(1.05); /* aumenta levemente */
+  color: #291b1a;         /* muda a cor */
+}
+#page img {
+  width: 100%;        /* ocupa toda a largura disponível */
+  max-width: 700px;   /* limita para não ficar exagerado */
+  height: auto;       /* mantém proporção da imagem */
+  display: block;     /* evita espaços extras */
+  margin: 20px auto;  /* centraliza e dá respiro */
+  border-radius: 12px; /* cantos arredondados */
+}
